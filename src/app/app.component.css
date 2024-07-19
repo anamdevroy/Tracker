@@ -1,0 +1,75 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#health-tracker-form {
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, select {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+#workout-log {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#workout-log th, #workout-log td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+#workout-log th {
+    background-color: #f0f0f0;
+}
+
+#histogram-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#histogram {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+#workout-type-select {
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
